@@ -76,7 +76,7 @@ export default function DefaultNavbar() {
                             >
                                 &nbsp;Servicios
                             </NavLink>
-                            <div className="text-white">
+                            {/*<div className="text-white">
                                 <Dropdown
                                     color="transparent"
                                     size="sm"
@@ -111,7 +111,7 @@ export default function DefaultNavbar() {
                                         </DropdownItem>
                                     </Link>
                                 </Dropdown>
-                            </div>
+                            </div>*/}
                             <NavLink
                                 href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
                                 target="_blank"
