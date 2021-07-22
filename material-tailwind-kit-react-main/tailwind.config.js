@@ -1,3 +1,5 @@
+const colors = require('material-ui-colors')
+
 module.exports = {
     mode: 'jit',
     purge: ['./src/**/*.js', './public/index.html'],
@@ -18,6 +20,9 @@ module.exports = {
                     "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1080.jpg')",
             }),
         },
+        colors: {
+            "oficial" : "#1D308E",
+          },
     },
     variants: {
         extend: {},
